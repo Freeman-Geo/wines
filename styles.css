@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(52, 3, 59);
+    margin: 20px;
+}
+
+.index--body{
+    border: 5px solid white;
+    height: 95vh;
+}
+
+.index--title{
+    position: absolute;
+    top: 61vh;
+    left: 100px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    color: #eee;
+    text-align: center;
+    margin-top: 20px;
+    z-index: 10;
+}
+
+.barr{
+    position: absolute;
+    bottom: 30px;
+    height: 35vh;
+    width: 94.2vw;
+    background-image: linear-gradient(to right, rgb(80, 5, 5), rgba(165, 42, 42, 0.512), rgb(80, 5, 5), rgba(165, 42, 42, 0.446), rgb(80, 5, 5), rgba(165, 42, 42, 0.545), rgb(80, 5, 5), rgba(165, 42, 42, 0.531), rgb(80, 5, 5), rgba(165, 42, 42, 0.526), rgb(80, 5, 5), rgba(165, 42, 42, 0.578), rgb(80, 5, 5), rgba(165, 42, 42, 0.548), rgb(80, 5, 5));
+}
+
+.barr-top{
+    position: absolute;
+}
+
+.barr-left{
+    position: absolute;
+    width: 8vw;
+    height: 94vh;
+}
+
+.barr-right{
+    position: absolute;
+    width: 8vw;
+    right: 24.5px;
+    height: 94vh;
+}
+
+.cava-bg-img{
+    position: absolute;
+    top: 25px;
+    width: 93vw;
+    height: 59vh;
+}
+
+.barman-img{
+    position: absolute;
+    width: 25vw;
+    top: 27vh;
+    left: 12vw;
+}
+
+.top-menu{
+    position: absolute;
+    right: 12vw;
+    top: 5vh;
+    width: 40vw;
+    height: 55vh;
+    background-color: rgba(255, 255, 255, 0.500);
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.down-menu{
+    position: absolute;
+    right: 12vw;
+    bottom: 5vh;
+    width: 77vw;
+    height: 25vh;
+    background-color: rgba(255, 255, 255, 0.400);
+    border-radius: 10px;
+}
+
+/* * Mini menu */
+
+.down-menu-mini-menu-container{
+    width: 77vw;
+    height: 30px;
+    background-color: rgba(128, 0, 128, 0.200);
+    position: fixed;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.down-menu-mini-menu-options-container{
+    width: auto;
+    height: 28px;
+    padding: 1px;
+    border-radius: 10px;
+    display: flex;
+    gap: 2px;
+}
+
+.button--mini-menu{
+    width: auto;
+    height: 100%;
+    background-color: rgba(137, 43, 226, 0.500);
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button--mini-menu:active{
+    background-color: rgba(210, 30, 210, 0.5);
+    color: white;
+}
+
+.mini-menu--display{
+    color: white;
+    position: absolute;
+    width: auto;
+
+}
+
+.down-menu-mini-menu-title-container{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 53%;
+    top: 5px;
+}
+
+
